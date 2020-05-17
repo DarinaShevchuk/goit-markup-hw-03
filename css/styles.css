@@ -17,6 +17,16 @@
     font-size: 14px;
     line-height: 1.71;
   }
+
+  .container{
+    width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+   outline: 2px solid tomato;
+
+  }
   
   /* Logo */
   .logo {
@@ -51,6 +61,8 @@
 }
 .list{
     list-style: none;
+    margin:0;
+    padding: 0;
     }
 .list-title{
 font-weight: 700;
@@ -72,13 +84,23 @@ font-size: 16px;
 line-height: 1,87;
 }
 
+p{
+  margin: 0;
+  padding:0;
+}
+
 /* Hero */
 
+.hero{
+  text-align: center;
+}
+
 .hero-title{
+margin-top: 0;
+margin-bottom: 46px;
 font-weight: 900;
 font-size: 44px;
 line-height: 1,36;
-text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 
@@ -86,7 +108,13 @@ color: var(--font-text-color);
 }
 /* Section */
 
+.section{
+  padding-bottom: 94px;
+}
+
 .section-title{
+margin-top: 0;
+margin-bottom: 50px;  
 font-weight: 700;
 font-size: 36px;
 text-align: center;
@@ -96,6 +124,8 @@ color: var(--title-text-color);
 /* Features */
 
 .features .title {
+margin-top: 30px;
+margin-bottom: 10px;  
 font-weight: 700;
 line-height: 1,14;
 letter-spacing: 0.03em;
@@ -115,10 +145,13 @@ text-transform: uppercase;
 /* Team */
 
 .section-team{
-    background-color: var(--secondary-bgr-color);
+  padding-bottom: 94px;
+  background-color: var(--secondary-bgr-color);
 }
 
 .team .title{
+margin-top: 30px;
+margin-bottom: 10px;  
 font-weight: 500;
 font-size: 16px;
 line-height: 1,19;
@@ -126,6 +159,16 @@ color: var(--title-text-color)
 }
 
 .button{
+  display: inline-block;
+  min-width: 200px;
+  border-radius: 4px;
+  padding: 10px 32px;
+  text-align: center;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 1,87;
+  letter-spacing: 0.06em;
+
 color: var(--font-text-color);
 background-color: var(--button-color);
 }
@@ -145,6 +188,11 @@ background-color: var(--secondary-bgr-color);
 .button-secondary:hover,
 .button-secondary:focus{
     color: var(--button-color);
+}
+
+.clients:hover;,
+.clients:focus;{
+  color: var(--button-color)
 }
 
 /* Footer */
