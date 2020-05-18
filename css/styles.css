@@ -35,12 +35,20 @@ body {
   text-decoration: none;
 }
 
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
 /* Site nav */
 
 .site-nav {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #ececec;
 }
 
 /* Logo */
@@ -124,15 +132,6 @@ body {
   line-height: 1.87;
 }
 
-p {
-  margin: 0;
-  padding: 0;
-}
-
-a {
-  text-decoration: none;
-}
-
 /* Hero */
 
 .hero {
@@ -155,7 +154,6 @@ a {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-  border-bottom: 1px solid #ececec;
 }
 
 .section-title {
@@ -174,7 +172,7 @@ a {
 }
 
 .features .item {
-  min-width: 278px;
+  min-width: 270px;
 }
 
 .features .title {
@@ -194,7 +192,7 @@ a {
 }
 
 .work .item {
-  min-width: 380px;
+  min-width: 370px;
 }
 
 .work a {
@@ -222,7 +220,7 @@ a {
 }
 
 .team .item {
-  min-width: 278px;
+  min-width: 270px;
 }
 
 .team .title {
@@ -236,7 +234,7 @@ a {
 
 .button {
   display: inline-block;
-  mix-width: 200px;
+  min-width: 200px;
   border-radius: 4px;
   padding: 10px 32px;
   text-align: center;
@@ -263,9 +261,9 @@ Clients */
   max-width: 170px;
 }
 
-.clients:hover,
-.clients:focus {
-  color: var(--button-color);
+.clients .item:hover,
+.clients .item:focus {
+  background-color: var(--button-color);
 }
 
 /* Portfolio */
