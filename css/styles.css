@@ -162,6 +162,14 @@ color: var(--title-text-color);
 
 /* Features */
 
+.features{
+  display: flex;
+}
+
+.features .item{
+  min-width: 278px;
+}
+
 .features .title {
 margin-top: 30px;
 margin-bottom: 10px;  
@@ -173,6 +181,15 @@ color: var(--title-text-color);
 }
 
 /* Work list */
+
+.work{
+  display: flex;
+}
+
+.work .item{
+  min-width: 380px;
+}
+
 .work a{
 color: var(--font-text-color);
 font-weight: 700;
@@ -181,11 +198,23 @@ text-align: center;
 text-transform: uppercase;
 }
 
+.work .link{
+  background-color: var(--link-bgr-color);
+  }
+
 /* Team */
 
 .section-team{
   padding-bottom: 94px;
   background-color: var(--secondary-bgr-color);
+}
+
+.team{
+  display: flex;
+}
+
+.team .item{
+  min-width: 278px;
 }
 
 .team .title{
@@ -228,11 +257,32 @@ background-color: var(--secondary-bgr-color);
 .button-secondary:focus{
     color: var(--button-color);
 }
+/* 
+Clients */
+
+.clients{
+  display: flex;
+  }
+.clients .item{
+  min-width: 175px;
+} 
 
 .clients:hover;,
 .clients:focus;{
   color: var(--button-color)
 }
+
+/* Portfolio */
+.button-secondary:hover,
+.button-secondary:focus{
+    color: var(--button-color);
+}
+
+.flex-container{
+  display: flex;
+}
+
+
 
 /* Footer */
 .page-footer{
