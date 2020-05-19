@@ -178,7 +178,7 @@ img {
 }
 
 .features .item {
-  min-width: 270px;
+  max-width: 270px;
 }
 
 .features .title {
@@ -198,7 +198,7 @@ img {
 }
 
 .work .item {
-  min-width: 370px;
+  max-width: 370px;
 }
 
 .work a {
@@ -226,7 +226,7 @@ img {
 }
 
 .team .item {
-  min-width: 270px;
+  max-width: 270px;
 }
 
 .team .title {
@@ -322,7 +322,7 @@ Clients */
 }
 
 .flex-element {
-  width: 380px;
+  width: 370;
   margin-right: 30px;
   margin-bottom: 30px;
 }
