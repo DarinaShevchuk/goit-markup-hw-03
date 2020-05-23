@@ -163,9 +163,14 @@ img {
   max-width: 270px;
 }
 
+.features .item + .item {
+  margin-left: 30px;
+}
+
 .features .title {
-  margin-top: 30px;
-  margin-bottom: 10px;
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 10px;
   font-weight: 700;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -181,6 +186,10 @@ img {
 
 .work .item {
   max-width: 370px;
+}
+
+.work .item + .item {
+  margin-left: 30px;
 }
 
 .work a {
@@ -209,15 +218,29 @@ img {
 
 .team .item {
   max-width: 270px;
+  text-align: center;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  background-color: var(--primary-white-color);
+}
+
+.team .item + .item {
+  margin-left: 30px;
 }
 
 .team .title {
-  margin-top: 30px;
-  margin-bottom: 10px;
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   color: var(--title-text-color);
+}
+
+.team-text {
+  margin-bottom: 29.88px;
 }
 
 .button {
@@ -239,6 +262,11 @@ img {
   color: var(--primary-white-color);
 }
 
+.social {
+  display: flex;
+  justify-content: center;
+}
+
 /* 
 Clients */
 
@@ -247,6 +275,10 @@ Clients */
 }
 .clients .item {
   max-width: 170px;
+}
+
+.clients .item + .item {
+  margin-left: 30px;
 }
 
 .clients .item:hover,
@@ -349,7 +381,14 @@ Clients */
 .page-footer {
   background-color: var(--footer-bgr-color);
 }
+
+.page-footer > .container {
+  display: flex;
+  align-items: ;
+}
+
 .logo-footer {
+  margin-bottom: 10px;
   color: var(--title-text-color);
   font-family: "Raleway", sans-serif;
   font-size: 22px;
@@ -361,6 +400,10 @@ Clients */
 }
 
 .copyright {
+  padding-top: 18px;
+  padding-bottom: 21px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+
   background-color: var(--footer-bgr-color);
   font-weight: 400;
   font-size: 12px;
@@ -369,7 +412,7 @@ Clients */
   color: rgba(255, 255, 255, 0.4);
 }
 
-.social > .label {
+.container > .label {
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
@@ -379,6 +422,7 @@ Clients */
 .adress {
   font-weight: 400;
   color: var(--font-text-color);
+  text-decoration: none;
 }
 .adress .link {
   font-weight: 700;
