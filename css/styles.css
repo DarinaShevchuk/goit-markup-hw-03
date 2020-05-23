@@ -25,7 +25,6 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  outline: 2px solid tomato;
 }
 
 .list {
@@ -65,7 +64,8 @@ img {
   line-height: 1.14;
   text-decoration: none;
 }
-.blue {
+
+.logo span {
   color: var(--button-color);
 }
 
@@ -379,24 +379,30 @@ Clients */
 
 /* Footer */
 .page-footer {
+  padding-top: 48px;
+  padding-bottom: 21px;
   background-color: var(--footer-bgr-color);
 }
 
-.page-footer > .container {
+.footer-content {
   display: flex;
-  align-items: ;
+  align-items: baseline;
+  justify-content: space-between;
+  padding-bottom: 28px;
 }
 
 .logo-footer {
+  display: inline-block;
   margin-bottom: 10px;
-  color: var(--title-text-color);
+
+  color: var(--font-text-color);
   font-family: "Raleway", sans-serif;
   font-size: 22px;
   line-height: 1.18;
   text-decoration: none;
 }
-.logo-text {
-  color: var(--font-text-color);
+.logo-footer span {
+  color: var(--button-color);
 }
 
 .copyright {
@@ -412,7 +418,7 @@ Clients */
   color: rgba(255, 255, 255, 0.4);
 }
 
-.container > .label {
+.label {
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
@@ -420,11 +426,18 @@ Clients */
 }
 
 .adress {
+  font-style: normal;
   font-weight: 400;
   color: var(--font-text-color);
   text-decoration: none;
 }
 .adress .link {
-  font-weight: 700;
+  font-weight: 400;
   color: rgba(255, 255, 255, 0.6);
+}
+.adress .element + .element {
+  margin-top: 9px;
+}
+.adress-map {
+  margin-bottom: 9px;
 }
