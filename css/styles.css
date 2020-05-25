@@ -186,6 +186,7 @@ img {
 
 .work .item {
   max-width: 370px;
+  border-radius: 4px;
 }
 
 .work .item + .item {
