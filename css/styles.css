@@ -83,6 +83,7 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
+  cursor: pointer;
 }
 
 .main-nav {
@@ -108,6 +109,7 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
+  cursor: pointer;
 }
 .link:hover,
 .link:focus {
@@ -203,6 +205,7 @@ img {
 
 .work .link {
   background-color: var(--link-bgr-color);
+  cursor: pointer;
 }
 
 /* Team */
@@ -257,6 +260,8 @@ img {
 
   color: var(--font-text-color);
   background-color: var(--button-color);
+
+  cursor: pointer;
 }
 .button:hover,
 .button:focus {
@@ -276,6 +281,7 @@ Clients */
 }
 .clients .item {
   max-width: 170px;
+  cursor: pointer;
 }
 
 .clients .item + .item {
@@ -299,12 +305,15 @@ Clients */
   border-radius: 4px;
   padding: 6px 22px;
   border-width: 0;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
   text-align: center;
   color: var(--title-text-color);
   background-color: var(--secondary-bgr-color);
+
+  cursor: pointer;
 }
 .button-secondary:hover,
 .button-secondary:focus {
